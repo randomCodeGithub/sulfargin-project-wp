@@ -1,0 +1,12 @@
+.b-contact__form-wrap {
+    width: 100%;
+    max-width: 408px;
+    margin-top: -3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wpcf7-not-valid-tip {
+    font-size: 15px;
+    line-height: 20px;
+}

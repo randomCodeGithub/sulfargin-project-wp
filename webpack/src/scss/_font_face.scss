@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Myriadpro-bold;
+  src: url(../fonts/myriad_pro/MYRIADPRO-BOLD.OTF);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Myriadpro-semibold;
+  src: url(../fonts/myriad_pro/MYRIADPRO-SEMIBOLD.OTF);
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7upfd1');
+    src: url('../fonts/icomoon.eot?7upfd1#iefix') format('embedded-opentype'),
+         url('../fonts/icomoon.ttf?7upfd1') format('truetype'),
+         url('../fonts/icomoon.woff?7upfd1') format('woff'),
+         url('../fonts/icomoon.svg?7upfd1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.ic {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-c-human:before {
+  content: "\e90b";
+}
+.ic-c-cell:before {
+  content: "\e90c";
+}
+.ic-c-brain:before {
+  content: "\e90d";
+}
+.ic-c-heart:before {
+  content: "\e90e";
+}
+.ic-human:before {
+  content: "\e906";
+}
+.ic-head:before {
+  content: "\e907";
+}
+.ic-bike:before {
+  content: "\e908";
+}
+.ic-caret-left:before {
+  content: "\e90a";
+}
+.ic-caret-right:before {
+  content: "\e909";
+}
+.ic-checkmark:before {
+  content: "\e900";
+}
+.ic-calendar:before {
+  content: "\e901";
+}
+.ic-pills:before {
+  content: "\e902";
+}
+.ic-graph:before {
+  content: "\e903";
+}
+.ic-battery:before {
+  content: "\e904";
+}
+.ic-mind:before {
+  content: "\e905";
+}
+.ic-arrow-down:before {
+  content: "\e90f";
+}
+.ic-close:before {
+  content: "\e910";
+}
+.ic-checkmark1:before {
+  content: "\e911";
+}

@@ -1,0 +1,89 @@
+.pro .b-list-card--no-button .c-card { padding-bottom: 97px; }
+
+.b-list-card__list { max-width: 560px; }
+
+.b-list-card__button {
+    margin-top: 17px;
+    margin-left: 124px;
+}
+
+.b-list-card__decor,
+.b-list-card__image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.b-list-card__decor {
+    width: 624px;
+    height: 489px;
+    background: url('../../../assets/img/decor-2.svg') center no-repeat;
+}
+.b-list-card__image { z-index: 1; }
+
+.c-icon-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 32px;
+}
+.c-icon-list__item:last-child { margin-bottom: 0; }
+
+.c-icon-list__text {
+    flex: 1 0;
+    padding-left: 25px;
+}
+
+.c-icon-list__item--is-tall { align-items: flex-start; }
+
+
+@media ( min-width: 1100px ) {
+    .b-list-card--no-title .c-card { padding-top: 103px; }
+    .b-list-card--no-button .c-card { padding-bottom: 126px; }
+}
+
+@media ( max-width: 1200px ) and ( min-width: 1100px ) {
+    .b-list-card__decor,
+    .b-list-card__image { display: none !important; }
+
+}
+@media ( max-width: 1099px ) and ( min-width: 768px ) {
+    .b-list-card .c-card { padding-right: 50px; }
+}
+
+@media ( max-width: 767px ) {
+    .b-list-card .c-card { padding-right: 18px; }
+
+    .c-icon-list__item {
+        -ms-flex-align: start;
+        -webkit-box-align: start;
+        align-items: flex-start;
+        height: auto;
+        margin-bottom: 14px;
+    }
+    .c-icon-list__item:last-child { margin-bottom: 0; }
+
+    .c-icon-list__text { padding-left: 16px; }
+
+    .b-list-card__button-wrap { text-align: center; }
+
+    .b-list-card__button { margin: 30px 0 0; }
+
+    .b-list-card .c-featured-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .b-list-card .c-featured-icon__icon { font-size: 30px; }
+    .b-list-card .c-featured-icon__icon.ic-mind { font-size: 35px; }
+    .b-list-card .c-featured-icon__icon.ic-battery { font-size: 20px; }
+}

@@ -1,0 +1,23 @@
+.admin-icon-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    overflow: auto;
+    background: #fff;
+}
+
+.admin-icon-list table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.admin-icon-list td {
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.admin-icon-list .ic { font-size: 60px; }

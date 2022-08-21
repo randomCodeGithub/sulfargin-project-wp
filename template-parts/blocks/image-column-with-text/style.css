@@ -1,0 +1,9 @@
+.b-image-column-with-text__text { margin-bottom: 20px; }
+
+@media ( max-width: 1099px ) {
+    .b-image-column-with-text__image-col { margin-bottom: 7px; }
+}
+
+@media ( max-width: 767px ) {
+    .b-image-column-with-text .btn-more { line-height: 22px !important; }
+}

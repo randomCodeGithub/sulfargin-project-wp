@@ -1,0 +1,48 @@
+.c-pub { padding-left: 149px; }
+
+.c-pub__icon {
+    position: absolute;
+    top: 21px;
+    left: 24px;
+    font-size: 100px;
+    color: #BE0F14;
+}
+
+.c-pub__term { margin-top: -4px; }
+
+.c-pub__read-more { margin-top: 20px; }
+
+@media ( min-width: 1100px ) {
+    .b-publications--has-pager .c-pub { padding: 28px 28px 21px 149px; }
+}
+
+@media ( max-width: 767px ) {
+    .c-pub { padding: 24px 24px 23px; }
+
+    .c-pub__term-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 14px;
+    }
+
+    .c-pub__icon {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 38px;
+    }
+
+    .c-pub__term {
+        width: 210px;
+        margin: 0;
+        padding-left: 16px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .c-pub__title { margin-bottom: 13px; }
+
+    .b-publications .l-posts__item { margin-bottom: 24px; }
+
+}

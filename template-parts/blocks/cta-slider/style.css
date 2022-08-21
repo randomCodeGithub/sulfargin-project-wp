@@ -1,0 +1,93 @@
+.c-cta-slider { margin-bottom: 92px; }
+.c-cta-slider:first-child { margin-top: -25px; }
+
+.c-cta-slider__title { margin-bottom: 35px; }
+
+.c-cta-slider__info > *:last-child { margin-bottom: -4px; }
+
+.c-cta-slider__slider-wrap {
+    left: 4px;
+    padding: 20px 54px;
+}
+.c-cta-slider__slider-wrap--large {
+    margin-bottom: -5px;
+    padding: 9px 54px 0 11px;
+}
+
+.c-cta-slider__decor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 620px;
+    height: 556px;
+    background: url('../../../assets/img/decor.svg') center no-repeat;
+    background-size: 100% 100%;
+}
+
+.c-cta-slider__slider {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    transform: translateZ(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.c-cta-slider .slick-list,
+.c-cta-slider .slick-track { height: 100%; }
+
+.c-cta-slider--no-crop .c-cta-slider__slider { border-radius: 0; }
+
+.c-cta-slider__slider-wrap--large .c-cta-slider__slide {
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.c-cta-slider__slider-view-wrap {
+    width: 516px;
+    height: 516px;
+}
+
+@media ( max-width: 1300px ) and ( min-width: 1100px ) {
+    .c-cta-slider .offset-lg-1,
+    .c-cta-slider .offset-lg-2 { margin-left: 0; }
+}
+
+@media ( max-width: 1099px ) {
+    .c-cta-slider { margin-bottom: 104px; }
+
+    .c-cta-slider__slider-wrap { margin-bottom: 35px; }
+
+    .c-cta-slider__slider-view-wrap {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .c-cta-slider__decor {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: -4px;
+    }
+}
+
+@media ( max-width: 767px ) {
+    .c-cta-slider { margin-bottom: 62px; }
+
+    .c-cta-slider__title { margin-bottom: 24px; }
+
+    .c-cta-slider__slider-view-wrap {
+        width: 250px;
+        height: 250px;
+    }
+
+    .c-cta-slider__slider-wrap { padding: 10px 22px; }
+
+    .c-cta-slider__decor {
+        width: 300px;
+        height: 270px;
+    }
+}

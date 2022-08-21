@@ -1,0 +1,13 @@
+.c-404__title {
+    margin-top: -6px;
+    margin-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 180px;
+    font-weight: 700;
+    color: #F2F2F2;
+    line-height: 1;
+}
+
+.c-404__sub-title { margin-bottom: 24px; }
+
+.c-404__message { margin-bottom: 29px; }

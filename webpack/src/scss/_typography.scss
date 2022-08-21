@@ -1,0 +1,156 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: $c_default;
+}
+ 
+body,
+.p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.p-small,
+.has-small-font-size {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+a { color: $c_default; }
+
+
+
+/**
+ * Editor styles
+ */
+.editor > *:last-child { margin-bottom: 0; }
+
+.editor > p,
+.editor .wp-block-column > p { margin-bottom: 20px; }
+
+
+.editor > ul,
+.editor > ol {
+  margin-bottom: 21px;
+  list-style: none;
+}
+.editor > ol { counter-reset: item; }
+
+.editor > ul > li,
+.editor > ol > li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 24px;
+}
+.editor > ol > li {
+  padding-left: 40px;
+  counter-increment: item;
+}
+.editor > ul > li:last-child,
+.editor > ol > li:last-child { margin-bottom: 0; }
+
+.editor > ul > li:before {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: #14ABBE;
+  border-radius: 50%;
+  content: '';
+}
+
+.editor > ol > li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: counter(item) '.';
+}
+
+
+.wp-block-table table { width: 100%; }
+
+.wp-block-table table,
+.wp-block-table th,
+.wp-block-table td {
+  border: 1px solid $c_grey;
+}
+
+.wp-block-table th,
+.wp-block-table td { padding: 8px 12px; }
+.wp-block-table th { border-bottom-width: 3px; }
+
+
+
+/**
+ * Headings
+ */
+.h1,
+.editor > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.h2,
+.editor > h2 {
+  font-family: 'Roboto', sans-serif;
+  font-family: Myriadpro-bold;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.editor > h2 { margin-bottom: 23px; }
+
+.h3,
+.editor > h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.h4,
+.editor > h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.editor > h4 { margin-bottom: 24px; }
+
+
+@media ( max-width: $breakpoint_md ) {
+  body,
+  .p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .p-small {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .h1,
+  .editor > h1 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .h2,
+  .editor > h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .h3,
+  .editor > h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .h4,
+  .editor > h4 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+.b-icon-grid__items { margin-bottom: -46px; }
+
+.b-icon-grid__item { margin-bottom: 46px; }
+
+.b-icon-grid__item-title { font-weight: 600; }
+
+.b-icon-grid p:last-child { margin-bottom: 0; }
+
+@media ( max-width: 1099px ) {
+    .b-icon-grid p br { display: none; }
+}
+
+@media ( max-width: 767px ) {
+    .b-icon-grid__items { margin-bottom: -46px; }
+
+    .b-icon-grid__item { margin-bottom: 46px; }
+}

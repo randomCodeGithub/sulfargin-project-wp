@@ -1,0 +1,24 @@
+.b-partners__title { margin-bottom: 21px; }
+
+.b-partners__sub-title { margin-bottom: 30px; }
+
+
+.c-partner {
+    padding-bottom: 100%;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.c-partner__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+}
+
+.c-partner:hover { box-shadow: -5px 10px 30px rgba(24, 24, 24, .1); }
+
+@media ( max-width: 767px ) {
+    .b-partners__title { margin-bottom: 31px; }
+}
